@@ -128,3 +128,5 @@ std::string person::getRace()
 {
     return raceToStr[race];
 }
+
+student::student(double GPA, std::string major, course schedule, bool vaccinationStatusUpToDate, bool stableHomeAddress);
