@@ -1,5 +1,45 @@
 #include "person.h"
 
+
+student(std::string first_name, std::string last_name, int a, raceType r, double h, double w, 
+        std::string hair, std::string eye, double GPA, std::string major, course schedule){
+    this->first_name=first_name;
+    this->last_name=last_name;
+    this->a=a;
+    this->r=r;
+    this->h=h;
+    this->w=w;
+    this->hair=hair;
+    this->eye=eye;
+    this->GPA=GPA;
+    this->major=major;
+    this->shedule=schedule;
+}
+
+void student::getGPA(){
+    this->GPA = GPA;
+}
+void student::getMajor
+void student::getSchedule
+
+void student::setGPA(GPA){
+    this->GPA = GPA;
+}
+
+void student::setMajor(major){
+    this->major=major;
+}
+void student::setSchedule(course){
+    this->course=course;
+}
+student *student::makeCopy()
+{
+    return new student(*this);
+}
+
+//****************
+
+
 void employee::setSalary(double sal)
 {
     if (sal >= 60000)
