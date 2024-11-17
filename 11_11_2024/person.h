@@ -99,6 +99,18 @@ private:
 
 class student : public person
 {
+public:
+    student(std::string first_name, std::string last_name, int a, raceType r, double h, double w, std::string hair, std::string eye, double GPA, std::string major, course schedule);
+    std::string getGPA();
+    double getMajor();
+    int getSchedule();
+    void setGPA(double GPA);
+    void setMajor(std::string major);
+    void setSchedule(course);
+    std::string tostring();
+    student *makeCopy();
+
+private:
     double GPA;
     std::string major;
     course schedule;
