@@ -72,11 +72,11 @@ void addToParty(person **party, person *personToAdd, int &position)
     position++;
 }
 
-person createPerson()
+/* person createPerson()     blocked this out.
 {
 
     return person("Harry", "Potter", 40, WHITE, 5.7, 175, "brown", "green");
-}
+} */
 
 employee createEmployee()
 {
@@ -86,5 +86,5 @@ employee createEmployee()
 
 student createStudent()
 {
-    return nullptr;
-}
+    return student("Andrew", "Catlin", 36, WHITE, 6, 205, "brown", "green", 4.0, COMPSCI, CSCI201);
+} //added myself
