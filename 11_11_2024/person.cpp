@@ -1,5 +1,29 @@
 #include "person.h"
 
+//fleshed out the student.h declarations.
+void student::getGPA(){
+    this->GPA = GPA;
+}
+void student::getMajor
+void student::getSchedule
+
+void student::setGPA(GPA){
+    this->GPA = GPA;
+}
+
+void student::setMajor(major){
+    this->major=major;
+}
+void student::setSchedule(course){
+    this->course=course;
+}
+student *student::makeCopy()
+{
+    return new student(*this);
+}
+
+//****************
+
 void employee::setSalary(double sal)
 {
     if (sal >= 60000)
